@@ -21,9 +21,9 @@
         span{
             font-weight: bold;
             
-    @include mobile{
-        display: none;
-    }
+            @include mobile{
+                 display: none;
+            }
         }
 
         .social{

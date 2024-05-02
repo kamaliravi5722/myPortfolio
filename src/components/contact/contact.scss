@@ -50,8 +50,8 @@
     position: relative;
 
     @include mobile {
-       
-        width: 80%;
+       padding: 50px;
+        width: 100%;
       }
   
     .phoneSvg{
@@ -59,10 +59,7 @@
         position: absolute;
         margin: auto;
         z-index: -1;
-        @include mobile {
-            padding: 20px;
-            width: 10%;
-          }
+       
        
     }
     form{

@@ -17,6 +17,8 @@
         align-items: center;
         gap: 20px;
         @include mobile{
+            margin-top: 30px;
+            margin-left: 50px;
             align-self: center;
             text-align: center;
             flex-direction: column;
@@ -56,6 +58,7 @@
                flex-direction: column;
                text-align: center;
                gap: 20px;
+              
 
              }
 
@@ -68,6 +71,7 @@
                 @include mobile{
                   width: 200px;
                   height: 50px;
+                
                  }
 
             }
@@ -122,8 +126,8 @@
                 border: none;
                 align-items: center;
                 margin-left: 40px;
-                padding: 10px;
-                
+                padding: 20px;
+                gap: 20px;
 
              }
              p{
@@ -145,16 +149,15 @@
                 border-radius: 30px;
 
                 
-        @include mobile{
-            background-color: transparent;
-            border: 1px solid orange;
-            border-radius: 5px;
-            color: orange;
-            width: 60%;
-            padding: 5px;
- 
-          }
-            }
+                    @include mobile{
+                        background-color: transparent;
+                        border: 1px solid orange;
+                        border-radius: 5px;
+                        color: orange;
+                       
+        
+                    }
+                }
 
         }
 
