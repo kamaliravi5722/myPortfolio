@@ -36,7 +36,10 @@
         width: 100%;
         height: 100%;
         overflow: hidden;
-       
+        @include mobile 
+        {
+          margin-top: 50px;
+        }
 
         .wrapper{
 
@@ -63,7 +66,7 @@
               width: 100%;
               max-height: 300px;
               margin-top: 300px;
-              margin-left: 110px;
+              margin-left: 30px;
             }
             img
             {
@@ -73,7 +76,9 @@
             object-fit: contain;
               @include mobile 
               {
-                  object-fit: fit;
+                  object-fit: contain;
+                  width: 120%;
+                 
               }
     
             }
