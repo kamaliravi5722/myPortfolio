@@ -62,7 +62,7 @@
             {
               width: 100%;
               max-height: 300px;
-              margin-top: 200px;
+              margin-top: 300px;
               margin-left: 110px;
             }
             img
@@ -105,7 +105,10 @@
                 color: gray;
                 font-size: 20px;
                 @include mobile {
-                    font-size: 16px;
+                  font-size: 16px;
+                  text-align:justify;
+                  margin:10px;
+                  
                   }
             }
             button{
